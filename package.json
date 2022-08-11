@@ -1,23 +1,14 @@
 {
-  "name": "work-rest-app",
+  "name": "initial",
   "version": "1.0.0",
-  "description": "electron application helping track work-rest time",
   "main": "index.js",
-  "devDependencies": {},
+  "license": "MIT",
   "scripts": {
-    "test": "test"
+    "start": "electron main.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/irakis/work-rest-app.git"
-  },
-  "keywords": [
-    "electron"
-  ],
-  "author": "Ireneusz Wyszomirski",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/irakis/work-rest-app/issues"
-  },
-  "homepage": "https://github.com/irakis/work-rest-app#readme"
+  "dependencies": {
+    "electron": "^5.0.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
